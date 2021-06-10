@@ -48,7 +48,7 @@ h1{
   font-family: 'Roboto', sans-serif;
 }
 .hero_info{
-  margin-top: -227px;
+  margin-top: -257px;
   color: white;
 }
 .nav{
@@ -102,6 +102,9 @@ h1{
 }
 .second{
   margin-left: 1rem;
+}
+.visit_button{
+  margin-top: 1rem;
 }
 .projects_searchbar input{
   width: 100%;
@@ -751,6 +754,9 @@ li{
     cursor: pointer;
     margin: 0 0 0 auto;
   }
+  .child{
+    line-height: 24px!important;
+  }
   .hero{
     padding: 5rem 0;
   }
@@ -814,13 +820,13 @@ li{
   }
 }
 .child{
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   font-size: 1.8rem;
   line-height: 1.3rem;
   font-family: 'Roboto Mono', monospace;
   /* color: rgb(179, 162, 162); */
-  line-height: 24px;
+  line-height: 28px;
 }
 .button{
   font-family: cursive;

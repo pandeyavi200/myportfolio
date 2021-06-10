@@ -16,9 +16,7 @@ export default function HeroSection(){
                 <img className="my_image" src={Profile} alt="" />
            
              <div className="hero_info">
-             <PText>I am an enthusiastic web developer and currently
-              a collage going student. I also have a good knowledge of Data Structure
-              and algorithm.
+             <PText>A freelancer web designer and developer from Ghaziabad,Up. I always make websites that have unique designs and also has a good performance rate.
              </PText>
              <Button btnLink="/projects" outline="false" btnText="see my work"/>
              </div>

@@ -8,6 +8,15 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
+    name: 'Google Keep',
+    desc:
+      'As the name tells this is a clone of google keep app. In this react js has been used.',
+    img: ProjectImg,
+    git_link:"https://github.com/pandeyavi200/googlekeep",
+    visit:"https://pandeyavi200.github.io/googlekeep/",
+  },
+  {
+    id: uuidv4(),
     name: 'Covid Tracker',
     desc:
       'An application to track the covid data across the world. It has been made using API call (javascript)',
@@ -42,15 +51,7 @@ const projects = [
     git_link:"https://www.youtube.com/watch?v=jOviw8Ou_Yk ",
     visit:"https://unsplash.com/photos/7ZWVnVSaafY",
   },
-  {
-    id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
-    git_link:"https://www.youtube.com/watch?v=jOviw8Ou_Yk ",
-    visit:"https://unsplash.com/photos/7ZWVnVSaafY",
-  },
+ 
 ];
 
 export default projects;
