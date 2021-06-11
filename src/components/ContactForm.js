@@ -36,7 +36,7 @@ export default function ContactForm() {
                       onChange={(e)=> setMessage(e.target.value)} />
                   </label>
               </div>  
-              <button type="submit">Send</button>
+              <button type="submit" >Send</button>
             </form>
         </div>
     )

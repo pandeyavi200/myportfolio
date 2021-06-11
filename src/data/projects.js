@@ -8,6 +8,15 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
+    name: "My Portfolio",
+    desc:
+      'The website you are currently on. In this React js has been used with some extra npm packages.',
+    img: CavinImg,
+    git_link:"https://github.com/pandeyavi200/myportfolio ",
+    visit:"https://pandeyavi200.github.io/myportfolio/",
+  },
+  {
+    id: uuidv4(),
     name: 'Google Keep',
     desc:
       'As the name tells this is a clone of google keep app. In this react js has been used.',
@@ -41,15 +50,6 @@ const projects = [
     img: CoinTrackerImg,
     git_link:"https://banao.tech/ ",
     visit:"https://banao.tech/",
-  },
-  {
-    id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
-    git_link:"https://www.youtube.com/watch?v=jOviw8Ou_Yk ",
-    visit:"https://unsplash.com/photos/7ZWVnVSaafY",
   },
  
 ];

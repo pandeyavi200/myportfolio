@@ -400,6 +400,25 @@ li{
   margin:0px;
   margin-top: 0.5rem;
 }
+html::-webkit-scrollbar-track
+{
+    
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    
+    background-color: #555;
+}
 .button:hover{
   background-color: wheat;
   color: black;
