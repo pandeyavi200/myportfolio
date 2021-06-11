@@ -1,13 +1,14 @@
 import React,{useState} from 'react'
+import {Link} from 'react-router-dom';
 export default function ContactForm() {
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [message, setMessage] = useState()
+    const [data, setData] = useState("");
     console.log(name+email+message);
-    function refreshPage(){ 
-        window.location.reload(); 
+    const changeData=()=>{
+        setData("Data Sent Successfully... Thanks You!😊");
     }
-    
     return (
         <div>
             <form className="contact_form" >
@@ -38,8 +39,12 @@ export default function ContactForm() {
                       onChange={(e)=> setMessage(e.target.value)} />
                   </label>
               </div>  
-              <button type="submit" onClick={ refreshPage } >Send</button>
+              {/* <button type="submit" onClick={ refreshPage } >Send</button> */}
+              <Link className="button" to="/contact" onClick={changeData}>
+              Send
+               </Link>
             </form>
+            <div className="data_sent">{data}</div>
         </div>
     )
 }
