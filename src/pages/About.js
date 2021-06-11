@@ -26,7 +26,7 @@ import AboutInfoItem from '../components/AboutInfoItem'
                            I have a good understanding of data Structure and algorithm and problem solving. I can solve the problems in least time and using less memory.
                        </PText>
                        </div>
-                       <Button btnText="Download CV" btnLink="/"/>
+                       <Button btnText="Download CV" btnLink="https://drive.google.com/file/d/198n_qxz8_1cn30vZPIwU8Rgj_UNg-Tax/view?usp=drivesdk"/>
                    </div>
                </div>
             <div className="about_info_items">
