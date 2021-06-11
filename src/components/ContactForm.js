@@ -1,15 +1,16 @@
 import React,{useState} from 'react'
-
 export default function ContactForm() {
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [message, setMessage] = useState()
     console.log(name+email+message);
-
+    function refreshPage(){ 
+        window.location.reload(); 
+    }
     
     return (
         <div>
-            <form className="contact_form" action="">
+            <form className="contact_form" >
               <div className="form-group">
                   <label htmlFor="name">
                       Your Name
@@ -37,7 +38,7 @@ export default function ContactForm() {
                       onChange={(e)=> setMessage(e.target.value)} />
                   </label>
               </div>  
-              <button type="submit" >Send</button>
+              <button type="submit" onClick={ refreshPage } >Send</button>
             </form>
         </div>
     )

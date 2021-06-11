@@ -18,7 +18,7 @@ export default function HeroSection(){
              <div className="hero_info">
              <PText>A freelancer web designer and developer from Ghaziabad,Up. I always make websites that have unique designs and also has a good performance rate.
              </PText>
-             <Button btnLink="https://pandeyavi.netlify.app/projects" outline="false" btnText="see my work"/>
+             <Button btnLink="/projects" outline="false" btnText="see my work"/>
              </div>
              <div className="hero_social">
                  <div className="hero_socila_indicator">

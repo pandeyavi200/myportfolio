@@ -14,10 +14,10 @@ export default function foo() {
                  <PText>I am working as a freelancer web designer and developer from last 10 months. I love to design and make new web experiences for the people</PText>
               
                 <div className="about_sec_button">
-                <Button className="left" btnLink="https://pandeyavi.netlify.app/projects"
+                <Button className="left" btnLink="/projects"
                     btnText="Works"
                 />
-                <Button className="right_about_button" btnLink="https://pandeyavi.netlify.app/about" btnText="Read More"  />
+                <Button className="right_about_button" btnLink="/about" btnText="Read More"  />
                 </div>
                 </div>
                 <div className="aboutection_right">
