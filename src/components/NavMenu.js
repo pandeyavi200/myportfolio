@@ -6,9 +6,9 @@ import {MdMenu,MdClose} from 'react-icons/md';
 const NavMenu=()=>{
    const [ShowNav, setShowNav] = useState(false);
    const [navbar,setNavbar] = useState(false);
-   const callclose=()=>{
-       setShowNav(true);
-   }
+//    const callclose=()=>{
+//        setShowNav(true);
+//    }
    const changeBackground=()=>{
        console.log(window.scrollY);
        if(window.scrollY >= 80){

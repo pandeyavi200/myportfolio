@@ -27,9 +27,9 @@ export default function HeroSection(){
                  </div>
                  <div className="hero_social_text">
                      <ul>
-                         <li className="rotate1" ><a style={{color:"white"}} href="#" target="_blank" rel="noreferrer">FB</a></li>
-                         <li className="rotate1"><a  style={{color:"white"}} href="#" target="_blank" rel="noreferrer">LI</a></li>
-                         <li className="rotate1"><a  style={{color:"white"}} href="#" target="_blank" rel="noreferrer">TW</a></li>
+                         <li className="rotate1" ><a style={{color:"white"}} href="/#" target="_blank" rel="noreferrer">FB</a></li>
+                         <li className="rotate1"><a  style={{color:"white"}} href="/#" target="_blank" rel="noreferrer">LI</a></li>
+                         <li className="rotate1"><a  style={{color:"white"}} href="/#" target="_blank" rel="noreferrer">TW</a></li>
                      </ul>
                  </div>
              </div>

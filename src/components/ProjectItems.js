@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import projectImg from '../images/projectImg.png'
-export default function (
+export default function foo(
     {
         img=projectImg,
         title="Project Name",

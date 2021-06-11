@@ -29,7 +29,7 @@ export default function ProjectsSection() {
                }}
                >
                  {projects.map((projects,index)=>{
-                     if(index>=5) return;
+                     if(index>=5) return null;
                      return (
                      <SwiperSlide key={projects.id}>
                      <ProjectItems title={projects.name}

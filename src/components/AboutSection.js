@@ -3,7 +3,7 @@ import SectionTitle from '../components/SectionTitle'
 import PText from '../components/PText';
 import Button from '../components/Button';
 import About_img from '../images/about_img.png'
-export default function () {
+export default function foo() {
     return (
         <div style={{margin:"10rem 0"}}>
             <div className="container about_sec">
