@@ -456,7 +456,7 @@ html::-webkit-scrollbar-thumb
   margin-top: 5rem;
 }
 .swiper-container{
-  padding: 8rem;
+  /* padding: 8rem; */
   max-width: 100%;
 }
 .contactBanner_wapper{
