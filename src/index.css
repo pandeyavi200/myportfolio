@@ -323,6 +323,12 @@ li{
   transition: .3s ease rgb(20, 16, 16);
 
 }
+.data_sent{
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  color: aquamarine;
+}
 .nav_back li:hover{
   background-color: rgb(31, 6, 6);
 }
