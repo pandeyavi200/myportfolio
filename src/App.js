@@ -9,7 +9,6 @@ import Contacts from './pages/Contact';
 import {Route,Switch} from 'react-router-dom';
 import Footer from '../src/components/Footer'
 import ScrollToTop from './components/ScrollToTop';
-import SmoothScrollbar from './components/SmoothScrollbar';
 function App() {
   return (
     <>
