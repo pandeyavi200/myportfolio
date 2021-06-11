@@ -9,7 +9,7 @@ export default function ContactBanner() {
               <PText>Have a project in mind</PText>
               <h3 className="contactbanner_heading">
               Let me help you </h3>
-              <Button btnText="Contact Now" btnLink="/contact"/>
+              <Button btnText="Contact Now" btnLink="https://pandeyavi.netlify.app/contact"/>
             </div>
         </div>
             

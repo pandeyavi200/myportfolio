@@ -13,7 +13,7 @@ const projects = [
       'The website you are currently on. In this React js has been used with some extra npm packages.',
     img: CavinImg,
     git_link:"https://github.com/pandeyavi200/myportfolio ",
-    visit:"https://pandeyavi200.github.io/myportfolio/",
+    visit:"https://pandeyavi.netlify.app/",
   },
   {
     id: uuidv4(),

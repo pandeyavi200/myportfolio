@@ -231,7 +231,7 @@ h1{
   margin-top: 1rem;
 }
 .my_image{
-  border: 2px solid white;
+  border: 2px solid black;
   width: 100%;
   max-width: 800px;
 }
@@ -253,7 +253,7 @@ h1{
   position: relative;
   font-family: monospace;
   letter-spacing: 1px;
-  color: rgb(233, 227, 227);
+  color: white;
 }
 .name{
   font-size: 5rem;
@@ -804,6 +804,12 @@ html::-webkit-scrollbar-thumb
 }
 
 }
+@media only screen and (max-width:480px) {
+  .hero{
+    padding: 0rem 0;
+    margin-top: -2rem;
+  }
+}
 @media only screen and (max-width:430px) {
   .container{
     /* margin-top: -133px; */
@@ -817,7 +823,7 @@ html::-webkit-scrollbar-thumb
     font-size: 2.6rem;
 }
   .hero{
-    padding: 2rem 0;
+    padding: 0rem 0;
   }
   .hero_info {
     margin-top: 18px;
